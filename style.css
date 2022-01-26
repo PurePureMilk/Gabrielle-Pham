@@ -5,19 +5,19 @@
 body {
     font-family: 'Handlee', cursive;
     font-size: 13pt;
-    background-color: #efefef;
+    background-color: #f7d2f2;
     padding: 10px;
     margin: 0;
 }
 h1 {
     font-size: 15pt;
-    color: #20bcd5;
+    color: #8d54be;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #20bcd5;
+    border: 4px dotted #8d54be;
     padding: 10px;
 }
 p {
@@ -43,7 +43,7 @@ p {
 @media screen and (min-width: 1000px) and (max-width: 4000px) {
     .section {
         background-color: #fff;
-        padding: 15px;
+        padding: 20px;
         margin-left: 150px;
         margin-right: 150px;
         margin-bottom: 10px;
@@ -52,7 +52,7 @@ p {
 }
 
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-image: url("https://www.maxpixel.net/static/photo/2x/Mood-Sunset-Water-Sky-Nature-Header-Sun-Banner-5213793.jpg");
     background-size: cover;
 }
 #header img {
@@ -63,7 +63,7 @@ p {
 }
 #header p {
     font-size: 25pt;
-    color: #3b464c;
+    color: #787575;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
@@ -96,17 +96,17 @@ li {
 progress {
     width: 70%;
     height: 20px;
-    color: #3fb6b2;
+    color: #f8c75d;
     background: #efefef;
 }
 progress::-webkit-progress-bar {
     background: #efefef;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: #f8c75d;
 } 
 progress::-moz-progress-bar {
-    color: #3fb6b2;
+    color: #f8c75d;
     background: #efefef;
 }
 iframe, audio {
@@ -174,8 +174,9 @@ input, textarea {
     text-align: center;
 }
 .copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
     color: grey;
 }
