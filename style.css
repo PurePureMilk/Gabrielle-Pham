@@ -30,7 +30,7 @@ p {
 }
 
 /* For Mobile */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1000px) {
     .section {
         background-color: #fff;
         padding: 15px;
@@ -40,12 +40,12 @@ p {
 }
 
 /* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 4000px) {
+@media screen and (min-width: 1000px) and (max-width: 4000px) {
     .section {
         background-color: #fff;
         padding: 15px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 150px;
+        margin-right: 150px;
         margin-bottom: 10px;
         border-radius: 10px;
     }
