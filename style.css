@@ -1,5 +1,4 @@
-﻿div { text-align: center; };
-html {
+﻿html {
     margin: 0;
     padding: 0;
 }
@@ -29,9 +28,23 @@ p {
     border: 3px solid white;
     border-radius: 50%;
 }
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+    .section {
+        background-color: #fff;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
+
 .section {
     background-color: #fff;
     padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
