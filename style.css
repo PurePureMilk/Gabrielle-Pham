@@ -39,15 +39,18 @@ p {
     }
 }
 
-
-.section {
-    background-color: #fff;
-    padding: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 4000px) {
+    .section {
+        background-color: #fff;
+        padding: 15px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
 }
+
 #header {
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     background-size: cover;
